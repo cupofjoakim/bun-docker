@@ -1,3 +1,4 @@
+FROM node:latest
 FROM oven/bun:latest as base
 
 WORKDIR /usr/src/app
